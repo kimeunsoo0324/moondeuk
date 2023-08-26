@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layouts/layout1}">
+<head>
+    <meta charset="UTF-8">
+    <title>OCR Result</title>
+</head>
+<body>
+<h1>OCR 결과 :</h1>
+<div>
+    <div th:each="ocrResult : ${ocrResultList}">
+        <p th:text="${ocrResult}"></p>
+</div>
+</div>
+<audio controls>
+    <source th:attr="src=@{/playVoice(text=${ocrResultList})}" type="audio/mpeg">
+    브라우저가 오디오를 지원하지 않습니다.
+</audio>
+</body>
+</html>
+
+
+

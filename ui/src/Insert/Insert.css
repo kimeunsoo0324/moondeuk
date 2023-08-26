@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+.titleA{
+    color:black;
+    height:200px;
+    margin:60px auto;
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align:bottom;
+
+}
+.titleB{
+    color:white;
+    margin:20px auto;
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align:bottom;
+
+}
+
+
+ .box{
+    background-color:white;
+   margin:50px 450px;
+    height:420px;
+    border-radius: 50px;
+    text-align:center;
+     font-family: 'Pretendard-Regular';
+        font-size: 40px;
+        font-weight: bold;
+    
+ }
+
+ .boxx{
+    background-color:white;
+   margin:50px 450px;
+    height:420px;
+    border-radius: 50px;
+ }
+
+
+ .info{
+    margin: 20px 0;
+    color:white;
+    text-align: center;
+    font-family: 'Pretendard-Regular';
+    font-size: 40px;
+    font-weight: bold;
+ }
+
+.signup-profileImg-label {
+    text-align: center;
+    margin: 0 auto;
+    display:inline-block;
+    text-align: center;
+    width: 351px;
+    height: 92px;
+    line-height: 92px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: none;
+    background: #FDDD33;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 35px;
+    font-family: 'Pretendard-Regular';
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+        background: #FFB800;
+}
+}
+
+.signup-profileImg-input[type="file"] {
+  display: none;
+}
+.Insertimg{
+    width: 900px;
+    height: 420px;
+    object-fit: contain;
+    font-family: 'Pretendard-Regular';
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.total{
+    text-align: center;
+}
+
+.boxs{
+    background-color:white;
+    margin:50px 350px;
+    height:580px;
+    border-radius: 50px;
+    text-align:center;
+    overflow:auto;
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 50px;
+ } 
+ .boxs::-webkit-scrollbar {
+    width: 30px;  
+}
+.boxs::-webkit-scrollbar-thumb {
+    height: 20%; 
+    background: #FDDD33;
+    border-radius: 5px;
+}
+
+.boxs::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);
+}
+.InsertTextpossible{
+    color:gray;
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.TextInput{
+    resize: none;
+    background-color:white;
+    width: 900px;
+    height:400px;
+    border: none;
+    outline: none;
+    text-align:left;
+    overflow:auto;
+    font-family: 'Pretendard-Regular';
+    font-size: 35px;
+    font-weight: bold;
+    white-space: pre-wrap;
+}
+.TextInput::-webkit-scrollbar {
+    width: 30px;  
+}
+.TextInput::-webkit-scrollbar-thumb {
+    height: 20%; 
+    background: #FDDD33;
+    border-radius: 5px;
+}
+
+.TextInput::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, .1);
+}

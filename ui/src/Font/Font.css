@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    src: url("./Pretendard-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: Pretendard;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    src: url("./Pretendard-Bold.woff") format("woff");
+}

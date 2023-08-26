@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Summary Result</title>
+</head>
+<body>
+<h1>요약 결과 :</h1>
+<div th:text="${summaryResult}"></div>
+
+<audio controls>
+  <source th:attr="src=@{/playVoice(text=${summaryResult})}" type="audio/mpeg">
+  브라우저가 오디오를 지원하지 않습니다.
+</audio>
+</body>
+</html>
